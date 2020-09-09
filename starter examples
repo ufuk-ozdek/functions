@@ -1,7 +1,6 @@
 def hello_func(greeting, name='You'):
     return '{}, {}'.format(greeting, name)
 
-
 print(hello_func('Hi', name='Ufuk'))
 
 
@@ -15,21 +14,22 @@ def fib(n):
     
 print(fib(8))
     
-    
+
+
 def student_info(*args, **kwargs):
     print(args)
     print(kwargs)
-
 
 classes = ['Math', 'Physics']
 info = {'name': 'Ela', 'age': 22}
 
 student_info(*classes, **info)
 
+
+
 def function(*args):
     for i in args:
         print(i)
-
 
 list = [10, 2.5, 'burak', True]
 
